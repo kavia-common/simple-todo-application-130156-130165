@@ -1,11 +1,13 @@
 {
-  "name": "react-kavia",
+  "name": "react-native-todo-kavia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-native-web": "^0.19.13",
+    "react-scripts": "^5.0.1",
+    "uuid": "^9.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +32,11 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
+  },
+  "resolutions": {
+    "scheduler": "^0.23.0"
+  },
+  "alias": {
+    "react-native$": "react-native-web"
   }
 }
